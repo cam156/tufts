@@ -82,7 +82,10 @@ GEM
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    diff-lcs (1.2.4)
+    devise_ldap_authenticatable (0.8.1)
+      devise (>= 3.0)
+      net-ldap (>= 0.3.1, < 0.6.0)
+    diff-lcs (1.2.5)
     disable_assets_logger (1.0.0)
     equivalent-xml (0.3.0)
       nokogiri (>= 1.4.3)
@@ -166,6 +169,7 @@ GEM
     minitest (4.7.5)
     mono_logger (1.1.0)
     multi_json (1.8.2)
+    net-ldap (0.3.1)
     nokogiri (1.6.0)
       mini_portile (~> 0.5.0)
     nom-xml (0.5.1)
@@ -208,7 +212,7 @@ GEM
       thor (>= 0.18.1, < 2.0)
     raindrops (0.12.0)
     rake (10.1.0)
-    rdf (1.0.10.1)
+    rdf (1.0.10.2)
       addressable (>= 2.3)
     rdf-rdfxml (1.0.1)
       rdf (>= 1.0)
@@ -294,7 +298,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.38)
-    uglifier (2.3.0)
+    uglifier (2.3.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unicorn (4.7.0)
@@ -319,6 +323,7 @@ DEPENDENCIES
   chronic
   coffee-rails (~> 4.0.0)
   devise
+  devise_ldap_authenticatable (= 0.8.1)
   disable_assets_logger
   factory_girl_rails
   hydra (= 6.1.0)

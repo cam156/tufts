@@ -29,6 +29,7 @@ config/fedora.yml
 config/solr.yml
 config/redis.yml
 config/devise.yml
+config/ldap.yml
 
 # Ignore RubyMine config files
 .idea/

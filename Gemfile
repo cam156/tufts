@@ -13,6 +13,7 @@ gem 'qa', '0.0.3'
 gem 'sanitize', '2.0.6'
 
 gem 'disable_assets_logger', :group => :development
+gem 'devise_ldap_authenticatable', '0.8.1'
 
 gem 'sass-rails',   '~> 4.0.0'
 gem 'coffee-rails', '~> 4.0.0'
