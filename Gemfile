@@ -32,10 +32,10 @@ gem 'resque'
 
 group :development do
   gem 'unicorn'
-  gem 'jettywrapper'
 end
 
 group :development, :test do
+  gem 'jettywrapper'
   gem 'rspec-rails'
   gem 'capybara'
   gem 'launchy'
